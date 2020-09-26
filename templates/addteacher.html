@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hey {{ current_user.username }},</h1>
+    <h2>Teacher coordinator na add madi please!!!</h2>
+    <form action="" enctype="multipart/form-data" method="post">
+        <label>
+            <p class="label-txt">Upload Your Image</p>
+            <input type="file" id="img" name="img" accept="image/*" class="input" required>
+            <!-- <div class="line-box">
+              <div class="line"></div>
+            </div> -->
+          </label>
+        <div class="txt">
+            <br />
+
+            <label for="usn"><b>Name</b></label><br />
+            <input type="text" placeholder="name" name="name" id="name" required />
+        </div>
+        <div class="txt">
+            <br />
+            <label for="usn"><b>Enter Branch</b></label><br />
+            <input type="text" placeholder="Enter Branch" name="branch" id="usn" required />
+        </div>
+        <div class="txt">
+            <br />
+            <label for="usn"><b>phone number</b></label><br />
+            <input type="text" placeholder="Enter Phone" name="phno" id="usn" required />
+        </div>
+        <div class="txt">
+            <br />
+            <label for="usn"><b>Email</b></label><br />
+            <input type="text" placeholder="Email" name="email" id="usn" required />
+        </div>
+        <button type="submit" class="btn">Enter data!!!</button>
+    </form>
+</body>
+
+</html>

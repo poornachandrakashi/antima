@@ -99,6 +99,11 @@ def add_student():
         
     return render_template('addstudent.html')
 
+#Team Rankking
+@app.route('/team_rank')
+def team_rank():
+    return render_template('team_rank.html')
+
 #add student representative
 @app.route('/addteacher',methods=['GET', 'POST'])
 @login_required

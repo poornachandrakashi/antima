@@ -176,6 +176,10 @@ def login():
             message = 'Failed to login!'
     return render_template('login1.html', message=message)
 
+@app.route('/college_about')
+def about():
+    return render_template('about.html')
+
 #Test
 @app.route('/test')
 @login_required
